@@ -6,7 +6,7 @@
       "price": 207,
       "subCategoryId": "galleta de coco sin azucar",
       "categoryId": "Bolleria Dulce",
-      "content": "Culpa sed tenetur incidunt quia veniam sed mollitia exercitationem. Laboriosam reprehenderit laborum pariatur ea rem qui inventore. In asperiores dignissimos temporibus et. Beatae consequatur corrupti nam praesentium.",
+      "content": "Galleta de coco sin azucar especialmente pensada para nuestros clientes que desean comer algo dulce y cuidar su figura",
       "imageUrl": "img/products/galleta-de-coco-sin-azucar.jpg"
     },
     {
@@ -15,7 +15,7 @@
       "price": 271,
       "subCategoryId": "galleta de chocolate sin azucar",
       "categoryId": "Bolleria Dulce",
-      "content": "Nam incidunt blanditiis odio inventore. Nobis voluptatum quibusdam laboriosam a numquam. Delectus sequi ipsa possimus ratione repellendus quibusdam. Molestiae fuga laudantium natus dolorem.",
+      "content": "Galleta de chocolate sin azucar especialmente pensada para nuestros clientes que desean comer algo dulce y cuidar su figura",
       "imageUrl": "img/products/galletas-de-chocolate-sin-azucar.jpg"
     },
     {
@@ -24,7 +24,7 @@
       "price": 295,
       "subCategoryId": "galleta de vainilla sin azucar",
       "categoryId": "Bolleria Dulce",
-      "content": "Quod reiciendis aspernatur ipsum cum debitis. Quisquam tempore doloremque quo ipsum ipsa tempora. Dignissimos qui ex ad facilis. Quo sequi recusandae eveniet autem ducimus nam.",
+      "content": "Galleta de vainilla sin azucar especialmente pensada para nuestros clientes que desean comer algo dulce y cuidar su figura",
       "imageUrl": "img/products/galleta-vainilla-sin-azucar.jpg"
     },
     {
@@ -33,7 +33,7 @@
       "price": 280,
       "subCategoryId": "galleta vainilla",
       "categoryId": "Bolleria Dulce",
-      "content": "Occaecati dolore assumenda facilis error quaerat. Rem harum alias cum eum quam corporis. Esse numquam vero facilis labore.",
+      "content": "Galleta de vainilla recien hecha",
       "imageUrl": "img/products/galleta-vainilla.jpg"
     },
     {
@@ -42,7 +42,7 @@
       "price": 138,
       "subCategoryId": "galleta de chocolate",
       "categoryId": "Bolleria Dulce",
-      "content": "Reiciendis dolorum debitis occaecati assumenda totam ex. Ullam iure dolore excepturi unde in libero modi molestiae. Voluptate labore aliquid dignissimos omnis cum eligendi id. Sint repudiandae magni cum dolore itaque esse porro.",
+      "content": "Galleta de chocolate recien horneada",
       "imageUrl": "img/products/galletas-de-chocolate.jpg"
     },
     {
@@ -51,7 +51,7 @@
       "price": 296,
       "subCategoryId": "galleta nido",
       "categoryId": "Bolleria Dulce",
-      "content": "Aut consequatur fugit ut voluptates fugit numquam vero velit. Distinctio minima quo nesciunt maiores voluptatem dolorum. Doloribus quam nisi molestiae nostrum iure sint debitis.",
+      "content": "Galleta nido con centro de dulce de leche",
       "imageUrl": "img/products/galleta-nido.jpg"
     },
     {
@@ -60,7 +60,7 @@
       "price": 183,
       "subCategoryId": "galleta de dulce de leche",
       "categoryId": "Bolleria Dulce",
-      "content": "Nam aperiam rem atque ut eius molestiae ex omnis. Ex consequatur ipsam quaerat nam provident. Maiores quae consectetur soluta voluptatum. Ut ipsa est facilis.",
+      "content": "Gallera de dulce de leche recién horneada",
       "imageUrl": "img/products/galleta-dulce-de-leche.jpg"
     },
     {
@@ -69,7 +69,7 @@
       "price": 104,
       "subCategoryId": "galleta de avena",
       "categoryId": "Bolleria Dulce",
-      "content": "Occaecati nam laudantium est quos. Fuga molestias facere consequatur sapiente cum reprehenderit quibusdam. Earum omnis ipsum numquam facilis perspiciatis architecto. Iste reiciendis minus distinctio corrupti eos. Excepturi ut sequi id blanditiis exercitationem.",
+      "content": "Galleta de avena recién horneada. fresca y saludable",
       "imageUrl": "img/products/galleta-de-avena.jpg"
     },
     {
@@ -230,7 +230,7 @@
       "name":  "flauta de hojaldre rellena de crema pastelera",
       "price": 130,
       "subCategoryId": "flauta de hojaldre rellena de crema pastelera",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "In sequi cumque quisquam corrupti doloribus suscipit. Adipisci ipsum labore ipsam deserunt cumque tenetur consequatur. Similique beatae magnam quidem labore vitae voluptatem. Laudantium vero quae illo saepe.",
       "imageUrl": "img/products/hojaldre-de-crema-pastelera.jpg"
     },
@@ -239,7 +239,7 @@
       "name":  "flauta de hojaldre rellena de crema de avellanas",
       "price": 117,
       "subCategoryId": "flauta de hojaldre rellena de crema de avellanas",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Corrupti sint occaecati doloribus maiores. Excepturi possimus eveniet unde accusamus sequi doloribus. Ratione amet quas accusamus illum quibusdam. Aut nulla voluptas similique aspernatur aperiam fuga unde.",
       "imageUrl": "img/products/hojaldre-crema-de-avellanas.jpg"
     },
@@ -383,7 +383,7 @@
       "name":  "alfajores de almendra",
       "price": 138,
       "subCategoryId": "alfajores de almendra",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Incidunt sunt nemo minima sit dicta. Quia iusto sed iure distinctio libero quasi atque. Natus consequuntur dignissimos dolores beatae necessitatibus natus nemo. Eveniet dolor ea blanditiis occaecati eveniet ipsum totam corrupti.",
       "imageUrl": "img/products/alfajores-de-almendra.png"
     },
@@ -392,7 +392,7 @@
       "name":  "Alfajores de almendra sin azucar",
       "price": 135,
       "subCategoryId": "Alfajores de almendra sin azucar",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Iusto repellat hic debitis ullam veritatis ipsum perferendis earum. Magnam corporis dolore consectetur beatae.",
       "imageUrl": "img/products/alfajores-de-almendra-sin-azucar.jpg"
     },
@@ -401,7 +401,7 @@
       "name":  "Figuritas de mazapan",
       "price": 297,
       "subCategoryId": "Figuritas de mazapan",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Velit possimus id possimus quod repudiandae dolore nisi. Quis reprehenderit nam qui in voluptates in tenetur et. Reprehenderit dolorum sint ex impedit cupiditate. Nostrum vero doloribus dicta laudantium reprehenderit quam. Numquam ab suscipit eos mollitia.",
       "imageUrl": "img/products/figuras-mazapan.jpg"
     },
@@ -410,7 +410,7 @@
       "name":  "mazapan de Soto",
       "price": 287,
       "subCategoryId": "mazapan de Soto",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Voluptatum perspiciatis at similique praesentium sapiente temporibus dolores. Eum et ex quis dolor qui delectus voluptatibus. Odio unde deleniti nihil assumenda delectus cum.",
       "imageUrl": "img/products/mazapan-de-soto.jpg"
     },
@@ -419,7 +419,7 @@
       "name":  "mazapan de frutas",
       "price": 183,
       "subCategoryId": "mazapan de frutas",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Delectus fuga quia perferendis quis esse sunt enim quod. Saepe aut necessitatibus aspernatur. Nisi quos consequatur eius ex tenetur est. Dignissimos blanditiis odio dolore eius deserunt corporis.",
       "imageUrl": "img/products/mazapan-de-frutas.jpeg"
     },
@@ -428,7 +428,7 @@
       "name":  "mazapan de nata y nueces",
       "price": 144,
       "subCategoryId": "mazapan de nata y nueces",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Reprehenderit exercitationem sequi eius minima hic eius. Quasi fugiat aperiam beatae. Saepe error pariatur molestias ipsa ea veritatis. Aut soluta et culpa sit repellat.",
       "imageUrl": "img/products/mazapan-de-nata-y-nueces.jpeg"
     },
@@ -437,7 +437,7 @@
       "name":  "mazapan de yema",
       "price": 239,
       "subCategoryId": "mazapan de yema",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Velit distinctio debitis velit dolorem doloribus. Qui reprehenderit nihil quidem cum cumque tenetur. Provident facilis ullam nesciunt quibusdam enim dolorem.",
       "imageUrl": "img/products/mazapan-de-yema.jpeg"
     },
@@ -446,7 +446,7 @@
       "name":  "nevaditos sin azucar",
       "price": 122,
       "subCategoryId": "nevaditos sin azucar",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Dolorem corporis recusandae dicta sunt ullam sed recusandae. Veniam dolorem consectetur fugit. Harum hic quisquam minus temporibus.",
       "imageUrl": "img/products/nevaditos-sin-azucar.jpg"
     },
@@ -455,7 +455,7 @@
       "name":  "nevaditos",
       "price": 149,
       "subCategoryId": "nevaditos",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Labore sequi quo ab earum. Pariatur enim voluptas tenetur voluptas. Natus architecto fuga necessitatibus aspernatur itaque eum. Aperiam rem saepe necessitatibus illum molestias repellat quos.",
       "imageUrl": "img/products/nevaditos.jpg"
     },
@@ -464,7 +464,7 @@
       "name":  "mantecados de canela",
       "price": 270,
       "subCategoryId": "mantecados de canela",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Labore neque ullam quo perferendis. Veritatis totam corrupti dignissimos placeat cum ut natus. Est quibusdam possimus architecto cupiditate velit fugiat recusandae. Recusandae repellat ipsam exercitationem voluptates autem itaque. Ipsa perspiciatis debitis illo reprehenderit veritatis.",
       "imageUrl": "img/products/mantecados-de-canela.jpg"
     },
@@ -473,7 +473,7 @@
       "name":  "queque navideño",
       "price": 193,
       "subCategoryId": "queque navideño",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Dolorem esse dolore explicabo. Minima aspernatur molestiae culpa iste maiores eaque aliquid. Nulla quod consequatur vero explicabo velit voluptatibus dignissimos.",
       "imageUrl": "img/products/queque-navideño.jpeg"
     },
@@ -482,7 +482,7 @@
       "name":  "mantecados de limón",
       "price": 130,
       "subCategoryId": "mantecados de limón",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Corporis accusantium reprehenderit incidunt veritatis accusamus similique. Ipsam ipsam nam excepturi voluptatibus eveniet. Quibusdam minus quisquam a praesentium. Minima rem perspiciatis tempora praesentium.",
       "imageUrl": "img/products/mantecados-de-limon.jpg"
     },
@@ -491,7 +491,7 @@
       "name":  "roscos de vino",
       "price": 272,
       "subCategoryId": "roscos de vino",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Alias aut laborum esse. Vitae repellendus deserunt doloremque eaque. Architecto repudiandae similique officiis repellendus adipisci nihil aliquam.",
       "imageUrl": "img/products/roscos-de-vino.jpeg"
     },
@@ -500,7 +500,7 @@
       "name":  "turrones surtidos",
       "price": 222,
       "subCategoryId": "turrones surtidos",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Alias dolor cupiditate esse aliquam amet. Corrupti nostrum perspiciatis voluptatem autem officia. Enim molestiae similique recusandae iure quod odio. Qui quasi cupiditate recusandae sit.",
       "imageUrl": "img/products/turrones-surtidos.jpg"
     },
@@ -509,7 +509,7 @@
       "name":  "turrones de alicante y de jijona",
       "price": 224,
       "subCategoryId": "turrones de alicante y de jijona",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Expedita voluptatem expedita necessitatibus. Aliquam laboriosam tenetur molestias asperiores vero.",
       "imageUrl": "img/products/turrones-de-alicante-y-jijona.jpeg"
     },
@@ -518,7 +518,7 @@
       "name":  "turrones de chocolate",
       "price": 193,
       "subCategoryId": "turrones de chocolate",
-      "categoryId": "festivas",
+      "categoryId": "Festivos",
       "content": "Eveniet iure labore nesciunt voluptates harum repellendus quam. Atque a quam autem placeat assumenda. Dolorum enim excepturi eaque nostrum porro ipsum. Vel dolorem ipsum adipisci possimus dignissimos incidunt vitae.",
       "imageUrl": "img/products/turron-de-chocolate.jpg"
     }

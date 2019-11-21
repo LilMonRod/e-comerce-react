@@ -1,0 +1,22 @@
+.button {
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+}
+
+#see-details-Button {
+    background: rgba(253, 171, 17, 0.747);
+}
+
+#see-details-Button:hover {
+    background: rgb(253, 168, 10);
+}
+
+#buy-Button {
+    background: rgba(253, 26, 10, 0.798);
+    font-weight: 550;
+}
+
+#buy-Button:hover {
+    background: rgb(253, 10, 10);
+}

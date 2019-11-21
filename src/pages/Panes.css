@@ -1,12 +1,12 @@
-.App {
+.Panes {
   text-align: center;
 }
 
-.App-logo {
+.Panes-logo {
   max-width: 100px;
 }
 
-.App-header {
+.Panes-header {
   background-color: rgba(252, 0, 0, 0.795);
   height: 65px;
   display: flex;
@@ -15,7 +15,7 @@
   justify-content: space-evenly;
 }
 
-.App-header:after {
+.Panes-header:after {
   content: "";
   position: absolute;      
   display: block;
@@ -25,13 +25,13 @@
   right:0;
   background:
     linear-gradient(
-      45deg, transparent 33.333%,
-      rgba(253, 10, 10, 0.637) 33.333%, rgba(253, 10, 10, 0.637) 66.667%,
-      transparent 66.667%
+    45deg, transparent 33.333%,
+    rgba(253, 10, 10, 0.637) 33.333%, rgba(253, 10, 10, 0.637) 66.667%,
+    transparent 66.667%
     ),linear-gradient(
-      -45deg, transparent 33.333%,
-      rgba(253, 10, 10, 0.637) 33.333%, rgba(253, 10, 10, 0.637) 66.667%,
-      transparent 66.667%
+    -45deg, transparent 33.333%,
+    rgba(253, 10, 10, 0.637) 33.333%, rgba(253, 10, 10, 0.637) 66.667%,
+    transparent 66.667%
     );
 
   background-size: 8px 20px;

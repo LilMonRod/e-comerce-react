@@ -1,3 +1,17 @@
+.Indicador {
+    background-color: rgb(14, 14, 212);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    height: auto;
+    width: auto;
+    padding: 0 5px;
+    font-size: 1rem;
+    top: 26px;
+    left: 5px;
+}
+
 .Nav {
     color: rgb(36, 36, 36);
     width: 50%;
@@ -17,10 +31,12 @@
 .Nav__item {
     display: inline;
     font-size: 1.2rem;
+    font-weight: 500;
     padding: 10px 16px;
+    position: relative;
     list-style: none;
 }
 
 .Nav__item:hover {
-    background-color: rgba(188, 134, 238, 0.349);
+    background-color: rgb(226, 3, 3);
 }
