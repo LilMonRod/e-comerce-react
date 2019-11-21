@@ -1,0 +1,26 @@
+.img__container {
+    border-radius: 10px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 250px;
+}
+
+.Product__bg-img {
+    max-width: 100%;
+    position: absolute;
+    top: -45px;
+    left: 0;
+}
+
+.Product__container {
+    height: auto;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 50px;
+    width: 28%;
+}
+
+.Product__img {
+    max-width: 300px;
+}

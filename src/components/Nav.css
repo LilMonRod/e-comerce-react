@@ -1,0 +1,26 @@
+.Nav {
+    color: rgb(36, 36, 36);
+    width: 50%;
+}
+
+.Nav__cart {
+    max-width: 20px;
+}
+
+.Nav__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav__item {
+    display: inline;
+    font-size: 1.2rem;
+    padding: 10px 16px;
+    list-style: none;
+}
+
+.Nav__item:hover {
+    background-color: rgba(188, 134, 238, 0.349);
+}
