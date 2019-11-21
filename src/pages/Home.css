@@ -1,12 +1,12 @@
-.App {
+.Home {
   text-align: center;
 }
 
-.App-logo {
+.Home-logo {
   max-width: 100px;
 }
 
-.App-header {
+.Home-header {
   background-color: rgba(252, 0, 0, 0.795);
   height: 65px;
   display: flex;
@@ -15,7 +15,7 @@
   justify-content: space-evenly;
 }
 
-.App-header:after {
+.Home-header:after {
   content: "";
   position: absolute;      
   display: block;

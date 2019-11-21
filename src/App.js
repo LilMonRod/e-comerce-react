@@ -1,27 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import Nav from './components/Nav';
-import Product from './components/Product';
-import data from './data/data.json';
-import './App.css';
+import React from 'react';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Dulces from './pages/Dulces';
+import Festivos from './pages/Dulces';
+import Panes from './pages/Panes';
+import Salados from './pages/Salados';
+import Home from './pages/Home';
+import NotFound from './pages/Error';
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [fruit, setFruit] = useState('banana');
-  const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="./img/logo.png" className="App-logo" alt="logo" />
-        <Nav key="main-nav" count={count}></Nav>
-      </header>
-      <div className="Wellcome__container">
-        <h1>Bienvenido a Pâtisserie de rêve</h1>
-        <p>conoce nuestra gran variedad de productos:</p>
-      </div>
-      <div className="Products__container">
-        {data.product.map((item) => <Product key={item.name+item.id} data={item} count={count} setCount={setCount} />)}
-      </div>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path={"/"} component={Home} exact />
+        <Route path={"/Dulces"} component={Dulces} />
+        <Route path={"/Festivos"} component={Festivos} />
+        <Route path={"/Panes"} component={Panes} />
+        <Route path={"/Salados"} component={Salados} />
+        <Route component={NotFound} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

@@ -30,8 +30,6 @@
 
 .Nav__item {
     display: inline;
-    font-size: 1.2rem;
-    font-weight: 500;
     padding: 10px 16px;
     position: relative;
     list-style: none;
@@ -39,4 +37,11 @@
 
 .Nav__item:hover {
     background-color: rgb(226, 3, 3);
+}
+
+.Nav__link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
 }
