@@ -86,7 +86,7 @@
       "name":  "galleta navideña",
       "price": 145,
       "subCategoryId": "galleta navideña",
-      "categoryId": "Bolleria Dulce",
+      "categoryId": "Festivos",
       "content": "Deserunt ad ducimus recusandae praesentium. Repudiandae officia aliquam quas mollitia. Voluptatum ipsam iure eos debitis asperiores iusto repudiandae occaecati. Neque itaque sit totam sunt aspernatur at placeat.",
       "imageUrl": "img/products/galleta-navideña.jpeg"
     },
@@ -101,7 +101,7 @@
     },
     {
       "id": 214,
-      "name":  "semillas",
+      "name":  "pan con semillas",
       "price": 152,
       "subCategoryId": "semillas",
       "categoryId": "Pan",
@@ -110,7 +110,7 @@
     },
     {
       "id": 215,
-      "name":  "tostado",
+      "name":  "pan tostado",
       "price": 189,
       "subCategoryId": "tostado",
       "categoryId": "Pan",
@@ -119,16 +119,16 @@
     },
     {
       "id": 218,
-      "name":  "enriquecido",
+      "name":  "pan de huevo y salvado de trigo ",
       "price": 100,
       "subCategoryId": "enriquecido",
       "categoryId": "Pan",
       "content": "Consectetur nihil inventore ut delectus. Soluta eius soluta nisi eius. Accusantium atque impedit consectetur odio ea omnis.",
-      "imageUrl": "img/products/pan-con-semillas.jpeg"
+      "imageUrl": "img/products/pan-de-huevo.jpg"
     },
     {
       "id": 219,
-      "name":  "cereales",
+      "name":  "pan con cereales",
       "price": 130,
       "subCategoryId": "cereales",
       "categoryId": "Pan",
@@ -137,7 +137,7 @@
     },
     {
       "id": 221,
-      "name":  "masa madre",
+      "name":  "pan de masa madre",
       "price": 280,
       "subCategoryId": "masa madre",
       "categoryId": "Pan",
@@ -164,7 +164,7 @@
     },
     {
       "id": 226,
-      "name":  "integral",
+      "name":  "pan integral",
       "price": 150,
       "subCategoryId": "integral",
       "categoryId": "Pan",
@@ -230,7 +230,7 @@
       "name":  "flauta de hojaldre rellena de crema pastelera",
       "price": 130,
       "subCategoryId": "flauta de hojaldre rellena de crema pastelera",
-      "categoryId": "Festivos",
+      "categoryId": "Bolleria Dulce",
       "content": "In sequi cumque quisquam corrupti doloribus suscipit. Adipisci ipsum labore ipsam deserunt cumque tenetur consequatur. Similique beatae magnam quidem labore vitae voluptatem. Laudantium vero quae illo saepe.",
       "imageUrl": "img/products/hojaldre-de-crema-pastelera.jpg"
     },
@@ -239,7 +239,7 @@
       "name":  "flauta de hojaldre rellena de crema de avellanas",
       "price": 117,
       "subCategoryId": "flauta de hojaldre rellena de crema de avellanas",
-      "categoryId": "Festivos",
+      "categoryId": "Bolleria Dulce",
       "content": "Corrupti sint occaecati doloribus maiores. Excepturi possimus eveniet unde accusamus sequi doloribus. Ratione amet quas accusamus illum quibusdam. Aut nulla voluptas similique aspernatur aperiam fuga unde.",
       "imageUrl": "img/products/hojaldre-crema-de-avellanas.jpg"
     },
@@ -248,7 +248,7 @@
       "name":  "flauta de hojaldre rellena de crema bavaria",
       "price": 230,
       "subCategoryId": "flauta de hojaldre rellena de crema bavaria",
-      "categoryId": "Bolleria salada",
+      "categoryId": "Bolleria Dulce",
       "content": "Exercitationem debitis enim eum nemo necessitatibus voluptate nihil et. Fuga eveniet sit consectetur quis assumenda. Nam possimus architecto quidem.",
       "imageUrl": "img/products/hojaldre-crema-bavaria.jpg"
     },
@@ -257,7 +257,7 @@
       "name":  "flauta de hojaldre rellena de dulce de leche",
       "price": 274,
       "subCategoryId": "flauta de hojaldre rellena de dulce de leche",
-      "categoryId": "Bolleria salada",
+      "categoryId": "Bolleria Dulce",
       "content": "A similique facilis facilis. Excepturi repudiandae nesciunt unde laborum libero voluptates. Facere porro eius nobis nemo laboriosam architecto. Aut placeat id commodi delectus sed pariatur veritatis quae.",
       "imageUrl": "img/products/hojaldre-dulce-de-leche.jpg"
     },
@@ -266,7 +266,7 @@
       "name":  "flauta de hojaldre rellena de crema irlandesa",
       "price": 167,
       "subCategoryId": "flauta de hojaldre rellena de crema irlandesa",
-      "categoryId": "Bolleria salada",
+      "categoryId": "Bolleria Dulce",
       "content": "Maiores eveniet dolores laudantium quae doloribus illum quam officiis. Molestias voluptate voluptatibus quae dicta veritatis corporis. Repellendus esse maxime repellat. Odit porro dolorem nesciunt unde est sint impedit.",
       "imageUrl": "img/products/hojaldre-crema-irlandesa.jpg"
     },

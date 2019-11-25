@@ -1,0 +1,13 @@
+.button {
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+}
+
+#see-details-Button {
+    background: rgba(247, 240, 240, 0.747);
+}
+
+#see-details-Button:hover {
+    background: rgb(230, 223, 213);
+}

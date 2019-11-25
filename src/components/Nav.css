@@ -1,3 +1,7 @@
+.Home-logo {
+    max-width: 100px;
+}
+
 .Indicador {
     background-color: rgb(14, 14, 212);
     border-radius: 50px;
@@ -35,13 +39,42 @@
     list-style: none;
 }
 
-.Nav__item:hover {
-    background-color: rgb(226, 3, 3);
+.Nav__item-logo {
+    display: inline;
+    position: relative;
+    list-style: none;
 }
 
 .Nav__link {
     font-size: 1.2rem;
     font-weight: 500;
+    height: 20px;
     color: black;
     text-decoration: none;
+}
+
+.Nav__link:hover {
+    background-color: rgb(226, 3, 3);
+}
+
+.active {
+    text-decoration:  overline solid rgb(255, 255, 255);
+}
+
+.active > .Nav__cart { 
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+    white-space: nowrap !important;      /* 3 */
 }

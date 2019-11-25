@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import Nav from  '../components/Nav';
 import Product from  '../components/Product';
-import data from  '../data/data.json';
+import data from '../data/data.json';
 import './Home.css';
 
 function Home() {
   const [count, setCount] = useState(0);
+  localStorage.setItem('Count', count);
   return (
     <div className="Home">
       <header className="Home-header">
-        <img src="./img/logo.png" className="Home-logo" alt="logo" />
-        <Nav key="main-nav" count={count}></Nav>
+        <Nav key="main-nav" page="main" count={count}></Nav>
       </header>
       <div className="Wellcome__container">
         <h1>Bienvenido a Pâtisserie de rêve</h1>

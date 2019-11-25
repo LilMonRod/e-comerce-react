@@ -1,18 +1,19 @@
 import React from 'react';
 import './Product.css';
 import Buttom from './Button';
+import ModalTool from './ModalTool';
 
 function Product(props) {
   return (
     <div className="Product__container">
       <div className="img__container">
         <img src={props.data.imageUrl} className="Product__img" alt={props.data.subCategoryId} />
-        </div>
-        <h3>{props.data.name}</h3>
+      </div>
+        <h3 className="title">{props.data.name}</h3>
         <p>Precio:<span className="Disapear">_</span><span className="High-light">{props.data.price}</span>CRC</p>
       <div>
-        <Buttom id="see-details-Button" text="ver mas detalles"/>
-        <Buttom count={props.count} setCount={props.setCount} id="buy-Button" text="Agregar al carrito"/>
+        <ModalTool data={props.data}/>
+        <Buttom  id="buy-Button" text="Agregar al carrito"/>
       </div>
     </div>
   );

@@ -4,16 +4,11 @@ import Product from  '../components/Product';
 import data from  '../data/data.json';
 import './Panes.css';
 
-import { NavLink } from 'react-router-dom';
-
 function Panes() {
   return (
     <div className="Panes">
       <header className="Panes-header">
-        <NavLink className="Nav__link" to="/">
-          <img src="./img/logo.png" className="Panes-logo" alt="logo" />
-        </NavLink>
-        <Nav key="main-nav"></Nav>
+        <Nav key="main-nav" page="secondary"></Nav>
       </header>
       <div className="Wellcome__container">
         <h1>Pâtisserie de rêve</h1>
