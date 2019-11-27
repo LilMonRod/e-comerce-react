@@ -23,7 +23,7 @@ class ModalTool extends React.Component {
     this.openModal = this.openModal.bind(this);
     this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
-
+    
     this.openButton = {
       borderRadius            : '50px',
       color                   : '#000',
@@ -31,7 +31,7 @@ class ModalTool extends React.Component {
       background              : 'rgba(247, 240, 240, 0.747)',
       cursor                  : 'pointer',
       ':hover': {
-        background            : 'rgb(253, 168, 10)'
+        backgroundColor            : 'rgb(253, 168, 10)'
       }
     };
     this.containerStyle = {
@@ -64,8 +64,8 @@ class ModalTool extends React.Component {
  
   openModal() {
     this.setState({modalIsOpen: true});
-  }
- 
+  } 
+
   afterOpenModal() {
     // references are now sync'd and can be accessed.
     
@@ -86,7 +86,7 @@ class ModalTool extends React.Component {
           style={customStyles}
           contentLabel="Detalles de nuestros productos"
         >
-          <button  style={this.closeButton} onClick={this.closeModal}>close</button>
+          <button style={this.closeButton} onClick={this.closeModal}>close</button>
  
           <h2 style={this.subtitle}>{this.props.data.name}</h2>
           <div style={this.imgContainer}>

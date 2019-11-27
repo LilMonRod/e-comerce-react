@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
 function Nav(props) {
-  const count = props.count ? props.count : localStorage.getItem('Count');
+  const count = props.count.length;
   return (
     <div className="Nav">
       <ul className="Nav__container">

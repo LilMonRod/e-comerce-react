@@ -9,11 +9,11 @@ function Product(props) {
       <div className="img__container">
         <img src={props.data.imageUrl} className="Product__img" alt={props.data.subCategoryId} />
       </div>
-        <h3 className="title">{props.data.name}</h3>
+        <h3 className="title">{props.data.name + ' ID:' + props.data.id }</h3>
         <p>Precio:<span className="Disapear">_</span><span className="High-light">{props.data.price}</span>CRC</p>
       <div>
         <ModalTool data={props.data}/>
-        <Buttom  id="buy-Button" text="Agregar al carrito"/>
+        <Buttom addToCart={props.addToCart} id={props.data.id} text="Agregar al carrito"/>
       </div>
     </div>
   );

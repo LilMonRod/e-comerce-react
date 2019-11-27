@@ -2,6 +2,12 @@
     padding: 10px;
     border-radius: 50px;
     color: black;
+    background:rgba(253, 171, 17, 0.747);
+    font-weight: 550;
+}
+
+.button:hover {
+    background: rgb(253, 168, 10);
 }
 
 #see-details-Button {
@@ -10,13 +16,4 @@
 
 #see-details-Button:hover {
     background: rgb(230, 223, 213);
-}
-
-#buy-Button {
-    background:rgba(253, 171, 17, 0.747);
-    font-weight: 550;
-}
-
-#buy-Button:hover {
-    background: rgb(253, 168, 10);
 }

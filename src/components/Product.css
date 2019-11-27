@@ -66,6 +66,6 @@
     text-transform: capitalize;
 }
 
-.v {
-    color: rgb(231, 52, 52);
+#see-details-Button:hover {
+    background: rgb(230, 223, 213);
 }
