@@ -4,7 +4,6 @@ import Sort from '../components/Sort';
 import './Home.css';
 
 function Home(props) {
-  console.log(props);
   return (
     <div className='Home'>
       <header className='Home-header'>
@@ -14,7 +13,7 @@ function Home(props) {
         <h1>Bienvenido a Pâtisserie de rêve</h1>
         <p>conoce nuestra gran variedad de productos:</p>
       </div>
-      <Sort key='sort' categories={props.categories} products={props.products} shoppingCart={props.shoppingCart}/>
+      <Sort key='sort' categories={props.categories} products={props.products.product} shoppingCart={props.shoppingCart}/>
     </div>
   );
 }

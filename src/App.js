@@ -40,13 +40,27 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path={"/"} component={props =><Home {...global} {...props}/>} />
-        <Route path={"/Dulces"} component={props =><Dulces {...global} {...props}/>} />
-        <Route path={"/Festivos"} component={props =><Festivos {...global} {...props}/>} />
-        <Route path={"/Panes"} component={props =><Panes {...global} {...props}/>} />
-        <Route path={"/Salados"} component={props =><Salados {...global} {...props}/>} />
-        <Route path={"/ShoppingCart"} component={props =><ShoppingCart {...global} {...props}/>} />
-        <Route component={NotFound} />
+        <Route path={"/"} exact component={Home}>
+          {props =><Home {...global} {...props}/>}
+        </Route>
+        <Route path={"/Dulces"} component={Dulces}>
+          {props =><Dulces {...global} {...props}/>}
+        </Route>
+        <Route path={"/Festivos"} component={Festivos}>
+          {props =><Festivos {...global} {...props}/>}
+        </Route>
+        <Route path={"/Panes"} component={Panes}>
+          {props =><Panes {...global} {...props}/>}
+        </Route>
+        <Route path={"/Salados"} component={Salados}>
+          {props =><Salados {...global} {...props}/>}
+        </Route>
+        <Route path={"/ShoppingCart"} component={ShoppingCart}>
+          {props =><ShoppingCart {...global} {...props}/>}
+        </Route>
+        <Route component={NotFound}>
+          {props =><NotFound {...global} {...props}/>}
+        </Route>
       </Switch>
     </BrowserRouter>
   );

@@ -5,15 +5,14 @@ class Sort extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: "coconut",
       categorySelected: 'default',
-      sortedList: props.products.product
+      sortedList: props.products
     };
     this.categories = props.categories;
-    this.products = props.products.product;
+    this.products = props.products;
     this.handleChange = this.handleChange.bind(this);
     this.addToCart = this.addToCart.bind(this);
-    this.defaultProductsOrder = props.products.product.slice();
+    this.defaultProductsOrder = props.products.slice();
   }
 
   handleChange = event => {
