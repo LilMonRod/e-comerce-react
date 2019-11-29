@@ -11,7 +11,6 @@ class Home extends React.Component {
       sortedList: props.products,
       shoppingCart: props.shoppingCart
     };
-    console.log(props);
     this.categories = props.categories;
     this.products = props.products;
 
@@ -29,7 +28,6 @@ class Home extends React.Component {
   addToCart(event) {
     const id = parseFloat(event.target.id);
     const element = this.products.product.find(element => this.verify(element,id));
-    console.log(element)
     const newShoppingCart = this.props.shoppingCart.slice()
     newShoppingCart.push(element);
 
