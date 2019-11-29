@@ -159,7 +159,7 @@
       "price": 143,
       "subCategoryId": "bonete frances",
       "categoryId": "Panes",
-      "content": "Id pariatur at modi esse distinctio error. Dolores quibusdam eveniet dolorum ipsam esse ut.",
+      "content": "Delicioso bonete francés recien hecho",
       "imageUrl": "img/products/pan-frances-bollito.jpg"
     },
     {
@@ -168,7 +168,7 @@
       "price": 150,
       "subCategoryId": "integral",
       "categoryId": "Panes",
-      "content": "Explicabo distinctio labore eius. Culpa provident nobis et iusto deserunt officia explicabo. Quis rem similique delectus. Quae dolor illum fuga molestias minima. Molestiae eum sequi expedita veniam dolorem officia.",
+      "content": "Pan integral recien hecho exclusito para nuestros clientes",
       "imageUrl": "img/products/pan-integral.jpeg"
     },
     {
@@ -177,7 +177,7 @@
       "price": 195,
       "subCategoryId": "bonete integral",
       "categoryId": "Panes",
-      "content": "Reprehenderit iste quos amet. Natus consequatur inventore amet non cumque quas sint. Hic vero voluptatibus aliquid beatae. Enim ipsam ab cum recusandae nihil provident.",
+      "content": "Delicioso bonete frances integral hecho por nuestros chef",
       "imageUrl": "img/products/pan-bonete-integral.jpeg"
     },
     {
@@ -186,7 +186,7 @@
       "price": 199,
       "subCategoryId":  "bizcocho de dulce de leche",
       "categoryId": "Bolleria Dulce",
-      "content": "Aut quam nisi libero distinctio. Temporibus rerum odit harum doloribus tempora quos. Expedita omnis minima modi quo ut.",
+      "content": "Delicioso bizcocho hecho con el mejor dulce de leche de la zona",
       "imageUrl": "img/products/bizcocho-de-dulce-de-leche.jpg"
     },
     {

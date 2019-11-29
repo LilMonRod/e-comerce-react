@@ -11,9 +11,10 @@ import NotFound from './pages/Error';
 import data from './data/data.json';
 
 function App() {
+  const products = JSON.parse(localStorage.getItem('shoppingCart'));
   const global = {
     products: data,
-    shoppingCart: [],
+    shoppingCart: products ? products : [],
     categories: [
       {
         "category": "id",
@@ -55,7 +56,7 @@ function App() {
         <Route path={"/Salados"} component={Salados}>
           {props =><Salados {...global} {...props}/>}
         </Route>
-        <Route path={"/ShoppingCart"} component={ShoppingCart}>
+        <Route path={"/CarritoDeCompras"} component={ShoppingCart}>
           {props =><ShoppingCart {...global} {...props}/>}
         </Route>
         <Route component={NotFound}>

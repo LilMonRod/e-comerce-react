@@ -2,11 +2,11 @@ import React from 'react';
 import Nav from '../components/Nav';
 import './Error.css';
 
-function Error() {
+function Error(props) {
   return (
     <div className="Error">
       <header className="Error-header">
-        <Nav key="main-nav" page="secondary"></Nav>
+        <Nav key="main-nav" page="secondary" count={props.shoppingCart}></Nav>
       </header>
       <div className="Wellcome__container">
         <h1>Pâtisserie de rêve</h1>

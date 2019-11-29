@@ -6,12 +6,14 @@ class Sort extends React.Component {
     super(props);
     this.state = {
       categorySelected: 'default',
-      sortedList: props.products
+      sortedList: props.products,
+      shoppingCart: props.shoppingCart
     };
     this.categories = props.categories;
     this.products = props.products;
+
     this.handleChange = this.handleChange.bind(this);
-    this.addToCart = this.addToCart.bind(this);
+
     this.defaultProductsOrder = props.products.slice();
   }
 
@@ -67,11 +69,6 @@ class Sort extends React.Component {
     return newSortedList;
   }
 
-  addToCart(event) {
-    console.log('ya casi lo tienes');
-    console.log(event.target.id);
-  }
-
   render() {
     return (
       <div>
@@ -91,7 +88,7 @@ class Sort extends React.Component {
           </label>
         </form>
         <div className='Products__container'>
-          {this.state.sortedList.map((item) => <Product key={item.name+item.id} addToCart={this.addToCart} data={item}/>)}
+          {this.state.sortedList.map((item) => <Product key={item.name+item.id} addToCart={this.props.addToCart} data={item}/>)}
         </div>
       </div>
     );
