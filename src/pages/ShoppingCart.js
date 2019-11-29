@@ -26,8 +26,8 @@ class ShoppingCart extends React.Component {
     if (this.state.shoppingCart.length > 0) {
       return <h3>Este es tu carrito de compras:</h3>
     } 
-else {
-      return <h3>Oh! parece que no has incluido nada a tu carrito de compras.</h3>
+    else {
+      return <h3>Oh! Tu carrito de compras está vacio! <br></br>parece que no has incluido nada a tu carrito de compras.</h3>
     }
   }
 

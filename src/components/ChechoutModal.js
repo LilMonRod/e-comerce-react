@@ -110,6 +110,7 @@ class CheckoutModal extends React.Component {
 
   checkOut() {
     localStorage.clear();
+    alert('Su pago se ha efectuado correctamente. Muchas gracias!');
     this.setState({modalIsOpen: true});
   }
  
