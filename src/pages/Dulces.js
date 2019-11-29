@@ -31,7 +31,6 @@ class Dulces extends React.Component {
   addToCart(event) {
     const id = parseFloat(event.target.id);
     const element = this.products.product.find(element => this.verify(element,id));
-    console.log(element)
     const newShoppingCart = this.props.shoppingCart.slice()
     newShoppingCart.push(element);
 

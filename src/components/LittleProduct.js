@@ -4,7 +4,7 @@ import './LittleProduct.css';
 function LittleProduct(props) {
   return (
     <div className="LittleProduct__container">
-      <button className="Quit-btn" id={props.data.id}>Quitar</button>
+      <button className="Quit-btn" id={props.data.id} onClick={props.deleteItem}>Quitar</button>
       <div className="Info__container">
         <img src={props.data.imageUrl} className="LittleProduct__img" alt={props.data.subCategoryId} />
       </div>
