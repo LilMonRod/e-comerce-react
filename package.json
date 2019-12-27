@@ -1,6 +1,6 @@
 {
-  "homepage": "https://lilmonrod.github.io/e-comerce-react",
-  "name": "shoppers",
+  "homepage": "http://lilmonrod.github.io/e-comerce-react",
+  "name": "e-comerce-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
