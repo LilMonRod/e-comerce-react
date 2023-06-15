@@ -16,7 +16,6 @@ class Panes extends React.Component {
     this.categories = props.categories;
     this.products = props.products;
     this.CategoryProducts =  props.products.product.filter(item => item.categoryId === 'Panes');
-    console.log(this.CategoryProducts)
 
     this.addToCart = this.addToCart.bind(this);
     this.verify = this.verify.bind(this);
